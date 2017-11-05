@@ -13,10 +13,11 @@ Comme le montre la photo les rails sont reliés par un hexahedre ayant la base p
 J'ai également fait deux attaches circulaire et deux attaches angulaire pour...Le fun? :)
 
 ![jonction_stl](size_slice.stl)
+![rail_stl](rail.stl)
 
 ## rails
 
-Ce sera la prochaine étape. Essayons déjà d'imprimer les jonctions :)
+Je n'ai pas pu m'empecher de le faire :p C'est amusant mais il va falloir mieux organiser tt cela. Le rail dépasse la taille de l'imprimante 3D, je vais faire un template pour pouvoir regler la taille à loirsir :)
 
 ## a faire
 
