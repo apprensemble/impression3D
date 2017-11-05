@@ -12,6 +12,8 @@ j'utilise openscad : http://www.openscad.org/documentation.html
 Comme le montre la photo les rails sont reliés par un hexahedre ayant la base plus large que la surface. Je me suis contenté de faire un cube :)
 J'ai également fait deux attaches circulaire et deux attaches angulaire pour...Le fun? :)
 
+![jonction_stl](size_slice.stl)
+
 ## rails
 
 Ce sera la prochaine étape. Essayons déjà d'imprimer les jonctions :)
