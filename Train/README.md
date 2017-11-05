@@ -1,7 +1,7 @@
 # Train
 
 l'idée est de commencer par reproduire les rails et les jonctions. Pour le train on verra un jour :)
-![train_photo](/images/rails.jpg)
+![train_photo](images/rails.jpg)
 
 ## logiciel
 
