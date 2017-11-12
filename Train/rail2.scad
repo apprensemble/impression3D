@@ -1,5 +1,5 @@
 //tout en dure puis je ferais des variables + refactoring
-// difference() {cube([48,10,5]);translate ([1,1,0])cube([46,8,4]);}
+// difference() {cube([47,10,5]);translate ([1,1.5,0])cube([45,7,4]);}
 for (i = [0:4]) {
 	difference() {
 		translate ([0,32*i,0]) cube([47,10,5]);
