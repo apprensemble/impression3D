@@ -8,7 +8,7 @@
 // in the z dimension than the polygon being subtracted from.  This helps
 // keep the resulting .stl file manifold.
 fudge = 0.1;
-difference() {cube([47,10,5]);translate ([1,1.5,0])cube([45,7,4]);}
+translate([-1,0,0]) difference() {cube([47,10,5]);translate ([1,1.5,0])cube([45,7,4]);}
 //rotate([0,0,-22.1])
 rotate(a=-21.9) translate([-18,79.38,0]) 
 difference() {cube([47,10,5]);translate ([1,1.5,0])cube([45,7,4]);}
