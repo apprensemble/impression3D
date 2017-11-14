@@ -8,7 +8,8 @@
 // in the z dimension than the polygon being subtracted from.  This helps
 // keep the resulting .stl file manifold.
 fudge = 0.1;
-translate([-26,0,0])rotate([0,0,12]) cube([47,5,2]);
+difference() {cube([47,10,5]);translate ([1,1.5,0])cube([45,7,4]);}
+//translate([-26,0,0])rotate([0,0,12]) cube([47,5,2]);
 module poly_path4174(h)
 {
   scale([25.4/90, -25.4/90, 1]) union()
@@ -27,5 +28,7 @@ module poly_path4172(h)
   }
 }
 
+translate([28,37.7,0]) rotate([0,0,-22.35]){
 poly_path4174(5);
 poly_path4172(5);
+}
