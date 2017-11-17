@@ -61,7 +61,12 @@ poly_path4172(8);
 }
 module multirail(nbr_rail) { 
 for ( i = [0:nbr_rail-1]) {
-translate([0,0,12*i]) rail_courbe();    
+translate([0,0,15*i]) rail_courbe();    
 }
 }
-multirail(4);
+module multirail_colimacon(nbr_rail) {
+  for ( i = [0:nbr_rail-1]) {
+rotate(a=20*i) translate([0,0,12*i]) rail_courbe();    
+}
+}
+multirail(2);
