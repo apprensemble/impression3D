@@ -12,7 +12,10 @@ difference() {
     cube([hbox,lbox,pbox]); 
 translate([ebox,ebox,ebox]) 
     cube([hibox,libox,pibox]);  
+translate([5,0,20-5]) 
+    cube([15,ebox,5]);
 }
+
 
 /*
 union() {
